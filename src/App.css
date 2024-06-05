@@ -1,0 +1,119 @@
+*, *::before, * ::after{
+  margin :0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+.overlay{
+  position :absolute;
+  top : 0;
+  left : 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('back1.png')center center no-repeat;
+  background-size: cover;
+  z-index: -100;
+}
+
+
+.love {
+  display: inline-block;
+  margin-top: -50rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 10px 20px;
+  margin-right: 30px;
+}
+
+
+h1 {
+  font-size: 55px;
+  font-family: 'higuen elegant serif';
+  color:#000000;
+  line-height: 4;
+  padding: 100px 30px;
+}
+
+
+p{
+  font-family: 'Lovelace';
+  font-size: 1.1rem;
+  color: #000000;
+  max-width: 90%;
+  margin-top: -9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pp{
+  max-width: 80%;
+}
+
+.first {
+  max-width: 80%;
+  margin-left: auto;
+  padding-top: 0;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0 10px;
+}
+.first li {
+  list-style: none;
+  margin-right: 20px; /* Ajoute un espace de 20px entre chaque élément */
+}
+.first li:last-child {
+  margin-right: 0; /* Supprime la marge à droite du dernier élément */
+}
+.first li a {
+  font-weight: bold;
+  color: #000000; /* Couleur du texte */
+}
+.first li a:hover {
+  color: #e88d0e; /* Couleur du texte au survol */
+}
+
+.logo {
+  width: 70px;
+}
+
+section {
+  height : 100vh;
+  margin-top: -6.2%;
+} 
+
+
+.menu {
+  width: 20px;
+  cursor: pointer;
+}
+
+
+.ulll {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  list-style: none;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  transition: color .3s;
+}
+
+.change{
+  color :#9b610f;
+}
+
+.CestMoi {
+  width: 25rem; 
+  float: right; 
+  margin-right: auto; 
+}
+
